@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c45ac7-b549-4b13-8162-a2310f43332e" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sime/annotion/note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sime/configinfo/ConfigInfoProper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sime/configinfo/EnvConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/待学习.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev-resource.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sime/annotion/controller/NameTypeInvokeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sime/annotion/controller/NameTypeInvokeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/oauth2-redirect.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui-bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui-standalone-preset.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui-standalone-preset.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -26,13 +30,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/annotion/controller/NameTypeInvokeController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-875">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="110">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -88,6 +89,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sime/configinfo/ConfigClass.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sime/configinfo/ConfigInfoProper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sime/annotion/controller/NameTypeInvokeController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/swagger3/sample.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sime/swagger3/config/RestConf.java" />
       </list>
     </option>
   </component>
@@ -122,8 +125,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="56" />
-    <option name="y" value="23" />
+    <option name="x" value="93" />
+    <option name="y" value="43" />
     <option name="width" value="1341" />
     <option name="height" value="797" />
   </component>
@@ -182,31 +185,7 @@
               <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sime" type="462c0819:PsiDirectoryNode" />
-              <item name="annotion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sime" type="462c0819:PsiDirectoryNode" />
-              <item name="annotion" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="sime" type="462c0819:PsiDirectoryNode" />
-              <item name="configinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
@@ -214,6 +193,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="swagger3" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -230,7 +219,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560435002649" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560440452116" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -240,9 +229,12 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sime.swagger3.config" />
       <recent name="com" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/swagger3" />
+      <recent name="$PROJECT_DIR$/src/main/resources/statics/swagger3" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -321,7 +313,7 @@
       <updated>1560039531585</updated>
       <workItem from="1560039535069" duration="11842000" />
       <workItem from="1560264920591" duration="2708000" />
-      <workItem from="1560429724441" duration="4864000" />
+      <workItem from="1560429724441" duration="7727000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1560429981140</created>
@@ -341,7 +333,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19414000" />
+    <option name="totallyTimeSpent" value="22277000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -353,7 +345,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="56" y="23" width="1341" height="797" extended-state="0" />
+    <frame x="93" y="43" width="1341" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
@@ -362,9 +354,9 @@
       <window_info id="Favorites" order="3" sideWeight="0.3784461" side_tool="true" weight="0.2717475" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.6215539" visible="true" weight="0.2717475" />
-      <window_info id="Structure" order="7" sideWeight="0.3784461" side_tool="true" visible="true" weight="0.2717475" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.506383" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.7952286" visible="true" weight="0.2717475" />
+      <window_info id="Structure" order="7" sideWeight="0.20477137" side_tool="true" weight="0.2717475" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.2212766" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32765958" />
@@ -373,9 +365,9 @@
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.6297872" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32907802" />
       <window_info anchor="bottom" id="Run" order="10" weight="0.3388306" />
-      <window_info anchor="bottom" id="Debug" order="11" visible="true" weight="0.43404254" />
+      <window_info anchor="bottom" id="Debug" order="11" visible="true" weight="0.3219858" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" weight="0.28915662" />
@@ -390,6 +382,41 @@
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" sideWeight="0.3784461" side_tool="true" weight="0.2717475" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.7952286" visible="true" weight="0.2717475" />
+      <window_info id="Structure" order="7" sideWeight="0.20477137" side_tool="true" weight="0.2717475" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.2212766" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32765958" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.6297872" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.3388306" />
+      <window_info anchor="bottom" id="Debug" order="11" visible="true" weight="0.3219858" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.28915662" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Bean Validation" order="5" />
+      <window_info anchor="right" id="Maven" order="6" weight="0.1039069" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -839,13 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/待学习.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/env/Environment.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -884,30 +904,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/configinfo/ConfigInfoProper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/annotion/controller/NameTypeInvokeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="49">
+          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/configinfo/ConfigInfoProper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/待学习.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/statics/swagger3/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-283" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/swagger3/config/RestConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="6" column="2" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/swagger3/sample.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/annotion/controller/NameTypeInvokeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-875">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
