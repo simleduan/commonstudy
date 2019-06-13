@@ -4,6 +4,7 @@ import com.sime.annotion.pojo.Person;
 import com.sime.annotion.service.NameService;
 import com.sime.annotion.service.QualifierService;
 import com.sime.annotion.service.TypeService;
+import com.sime.configinfo.ConfigInfoProper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -35,6 +36,9 @@ public class NameTypeInvokeController {
     @Qualifier("danduQualifier")
     private QualifierService qualifierService;
 
+    @Autowired
+    private ConfigInfoProper configInfoProper;
+
     @RequestMapping( method = RequestMethod.GET,value = "/invokeType")
     public String invokeNameType(){
         return typeService.getIvokeType();
@@ -64,5 +68,13 @@ public class NameTypeInvokeController {
     @GetMapping(value = "/getMapping")
     public String getMappingTest(){
         return "getmapping i'm comming";
+    }
+
+    @GetMapping(value = "/getConfigInfo")
+    public String getConfigInfo(){
+        String language = configInfoProper.getLanguage();
+        String eat = configInfoProper.getEat();
+        String girl = configInfoProper.getGirl();
+        return language+"---"+eat+"---"+girl;
     }
 }

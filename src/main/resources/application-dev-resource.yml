@@ -1,0 +1,19 @@
+#用户信息
+fanbin:
+  name: 樊斌
+  age: 20
+  city: 原平
+
+fanbinwife:
+  girlfriend:
+    name: 王祖贤
+    age: 18
+
+ENVIRONMENT_INFO_NAME: fanbin
+ENVIRONMENT_INFO_AGE: 28
+
+study:
+  like:
+    language: java
+    girl: jiangboliang
+    eat: xihongshi
