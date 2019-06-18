@@ -1,0 +1,6 @@
+注解的作用范围
+    https://blog.csdn.net/xcy1193068639/article/details/81464165
+
+1、sping是通过反射来完成类的实例化
+2、springMVC是通过DispatcherServlet对自己的注解进行一个解析，核心逻辑见样例
+

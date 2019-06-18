@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26c45ac7-b549-4b13-8162-a2310f43332e" name="Default Changelist" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/oauth2-redirect.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui-bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui-bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui-standalone-preset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui-standalone-preset.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/swagger3/swagger-ui.js.map" afterDir="false" />
+    <list default="true" id="26c45ac7-b549-4b13-8162-a2310f43332e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sime/invoke/InvokeMeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sime/invoke/annaotation/FanAutowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sime/invoke/annaotation/FanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sime/invoke/annaotation/FanRequestMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sime/invoke/annaotation/FanRequestParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sime/invoke/annaotation/FanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sime/invoke/controller/SelfMvcController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sime/invoke/service/SelfMvcService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sime/invoke/service/impl/SelfMvcServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sime/invoke/servlet/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sime/invoke/说明.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/sime/study/invoketest/InvokeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sime/invoke/InvokeMeTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sime/invoke/annaotation/FanAutowired.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sime/invoke/annaotation/FanController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sime/invoke/annaotation/FanRequestMapping.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sime/invoke/annaotation/FanRequestParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sime/invoke/annaotation/FanService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sime/invoke/controller/SelfMvcController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sime/invoke/service/SelfMvcService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sime/invoke/service/impl/SelfMvcServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sime/invoke/servlet/DispatcherServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/sime/study/invoketest/InvokeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Application.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,22 +41,13 @@
     <favorites_list name="commonstudy" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -55,6 +59,7 @@
       <find>aopTest.get</find>
       <find>this.transforme</find>
       <find>this.singletonObjects.put</find>
+      <find>DispatcherServletPath</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -68,7 +73,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sime/aop/config/study.text" />
         <option value="$PROJECT_DIR$/src/main/java/com/sime/aop/controller/AopTestController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sime/aop/config/AopTestConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sime/aop/services/AopTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/SpringAopApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sime/aop/services/AopTestImpl.java" />
@@ -82,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/application-resource.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/待学习.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/sime/configinfo/EnvConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application-dev-resource.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -91,6 +94,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sime/annotion/controller/NameTypeInvokeController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/static/swagger3/sample.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/sime/swagger3/config/RestConf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/待学习.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sime/invoke/InvokeMeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sime/study/invoketest/InvokeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sime/invoke/annaotation/FanAutowired.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sime/invoke/annaotation/FanController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sime/invoke/annaotation/FanRequestMapping.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sime/invoke/annaotation/FanRequestParam.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sime/invoke/annaotation/FanService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sime/invoke/service/SelfMvcService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sime/invoke/service/impl/SelfMvcServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sime/invoke/controller/SelfMvcController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sime/invoke/说明.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sime/invoke/servlet/DispatcherServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/Application.java" />
       </list>
     </option>
   </component>
@@ -125,10 +142,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="93" />
-    <option name="y" value="43" />
+    <option name="x" value="98" />
+    <option name="y" value="69" />
     <option name="width" value="1341" />
-    <option name="height" value="797" />
+    <option name="height" value="750" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -138,6 +155,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,30 +203,47 @@
               <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sime" type="462c0819:PsiDirectoryNode" />
+              <item name="invoke" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sime" type="462c0819:PsiDirectoryNode" />
+              <item name="invoke" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="swagger3" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sime" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="commonstudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="commonstudy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sime" type="462c0819:PsiDirectoryNode" />
+              <item name="study" type="462c0819:PsiDirectoryNode" />
+              <item name="invoketest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -219,7 +254,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560440452116" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560871927480" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -229,6 +264,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sime.invoke.annaotation" />
       <recent name="com.sime.swagger3.config" />
       <recent name="com" />
     </key>
@@ -264,6 +300,54 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DispatcherServlet.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="commonstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sime.invoke.servlet.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sime.invoke.servlet" />
+      <option name="MAIN_CLASS_NAME" value="com.sime.invoke.servlet.DispatcherServlet" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvokeTest.one" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="commonstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sime.study.invoketest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sime.study.invoketest" />
+      <option name="MAIN_CLASS_NAME" value="com.sime.study.invoketest.InvokeTest" />
+      <option name="METHOD_NAME" value="one" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InvokeTest.one3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="commonstudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sime.study.invoketest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sime.study.invoketest" />
+      <option name="MAIN_CLASS_NAME" value="com.sime.study.invoketest.InvokeTest" />
+      <option name="METHOD_NAME" value="one3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="commonstudy" />
       <extension name="coverage">
@@ -277,24 +361,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringAopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="commonstudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.SpringAopApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application" />
+        <item itemvalue="JUnit.DispatcherServlet.test" />
+        <item itemvalue="JUnit.InvokeTest.one3" />
+        <item itemvalue="JUnit.InvokeTest.one" />
         <item itemvalue="Application.SpringAopApplication" />
-        <item itemvalue="Spring Boot.SpringAopApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -313,7 +386,10 @@
       <updated>1560039531585</updated>
       <workItem from="1560039535069" duration="11842000" />
       <workItem from="1560264920591" duration="2708000" />
-      <workItem from="1560429724441" duration="7727000" />
+      <workItem from="1560429724441" duration="8505000" />
+      <workItem from="1560649086638" duration="4749000" />
+      <workItem from="1560779256911" duration="7791000" />
+      <workItem from="1560870469743" duration="1392000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1560429981140</created>
@@ -329,11 +405,35 @@
       <option name="project" value="LOCAL" />
       <updated>1560430056458</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1560440607148</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560440607148</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="InvokeTest_one - 2019.06.16 at 21h 48m 38s.xml">
+      <configuration name="InvokeTest.one" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvokeTest_one - 2019.06.16 at 22h 38m 33s.xml">
+      <configuration name="InvokeTest.one" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvokeTest_one3 - 2019.06.16 at 22h 42m 32s.xml">
+      <configuration name="InvokeTest.one3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InvokeTest_one3 - 2019.06.16 at 22h 45m 49s.xml">
+      <configuration name="InvokeTest.one3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DispatcherServlet_test - 2019.06.17 at 22h 26m 34s.xml">
+      <configuration name="DispatcherServlet.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22277000" />
+    <option name="totallyTimeSpent" value="36987000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -345,8 +445,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="93" y="43" width="1341" height="797" extended-state="0" />
-    <editor active="true" />
+    <frame x="98" y="69" width="1341" height="750" extended-state="0" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
@@ -354,20 +453,20 @@
       <window_info id="Favorites" order="3" sideWeight="0.3784461" side_tool="true" weight="0.2717475" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.7952286" visible="true" weight="0.2717475" />
-      <window_info id="Structure" order="7" sideWeight="0.20477137" side_tool="true" weight="0.2717475" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.2212766" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.65048546" visible="true" weight="0.25712085" />
+      <window_info id="Structure" order="7" sideWeight="0.34951457" side_tool="true" visible="true" weight="0.25712085" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3325301" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32765958" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.6297872" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="6" visible="true" weight="0.37386018" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.3388306" />
-      <window_info anchor="bottom" id="Debug" order="11" visible="true" weight="0.3219858" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.337386" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.71276593" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" weight="0.28915662" />
@@ -389,20 +488,20 @@
       <window_info id="Favorites" order="3" sideWeight="0.3784461" side_tool="true" weight="0.2717475" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Designer" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.7952286" visible="true" weight="0.2717475" />
-      <window_info id="Structure" order="7" sideWeight="0.20477137" side_tool="true" weight="0.2717475" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.2212766" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.7509091" visible="true" weight="0.20631255" />
+      <window_info id="Structure" order="7" sideWeight="0.24909091" side_tool="true" visible="true" weight="0.20631255" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3325301" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32765958" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="6" weight="0.6297872" />
+      <window_info anchor="bottom" id="Version Control" order="6" visible="true" weight="0.16413374" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.32907802" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.3388306" />
-      <window_info anchor="bottom" id="Debug" order="11" visible="true" weight="0.3219858" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.337386" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.37951806" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" weight="0.28915662" />
@@ -421,9 +520,61 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sime/study/invoketest/InvokeTest.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="breakpointCondition">
@@ -452,280 +603,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/aop/config/study.text">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/support/GenericApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.context.annotation.AnnotationConfigApplicationContext">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.context.annotation.AnnotationConfigApplicationContext</OriginalElement>
-          <nodes>
-            <node x="" y="">org.springframework.beans.factory.HierarchicalBeanFactory</node>
-            <node x="" y="">org.springframework.core.io.ResourceLoader</node>
-            <node x="" y="">java.lang.AutoCloseable</node>
-            <node x="" y="">org.springframework.context.ApplicationContext</node>
-            <node x="" y="">org.springframework.beans.factory.support.BeanDefinitionRegistry</node>
-            <node x="" y="">org.springframework.context.annotation.AnnotationConfigApplicationContext</node>
-            <node x="" y="">org.springframework.context.support.GenericApplicationContext</node>
-            <node x="" y="">org.springframework.context.Lifecycle</node>
-            <node x="" y="">java.lang.FunctionalInterface</node>
-            <node x="" y="">org.springframework.core.AliasRegistry</node>
-            <node x="" y="">org.springframework.context.support.AbstractApplicationContext</node>
-            <node x="" y="">org.springframework.core.io.DefaultResourceLoader</node>
-            <node x="" y="">org.springframework.core.env.EnvironmentCapable</node>
-            <node x="" y="">org.springframework.context.ConfigurableApplicationContext</node>
-            <node x="" y="">org.springframework.beans.factory.BeanFactory</node>
-            <node x="" y="">java.io.Closeable</node>
-            <node x="" y="">org.springframework.context.ApplicationEventPublisher</node>
-            <node x="" y="">org.springframework.core.io.support.ResourcePatternResolver</node>
-            <node x="" y="">org.springframework.context.annotation.AnnotationConfigRegistry</node>
-            <node x="" y="">org.springframework.context.MessageSource</node>
-            <node x="" y="">org.springframework.beans.factory.ListableBeanFactory</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.690149625935162" x="792.0" y="260.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/ConfigurableApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.context.ConfigurableApplicationContext">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.context.ConfigurableApplicationContext</OriginalElement>
-          <nodes>
-            <node x="360.99999999999994" y="80.0">org.springframework.beans.factory.HierarchicalBeanFactory</node>
-            <node x="607.5" y="0.0">org.springframework.core.io.ResourceLoader</node>
-            <node x="1232.0" y="80.0">java.lang.AutoCloseable</node>
-            <node x="487.24999999999994" y="170.0">org.springframework.context.ApplicationContext</node>
-            <node x="364.24999999999994" y="170.0">org.springframework.context.Lifecycle</node>
-            <node x="1022.5" y="0.0">java.lang.FunctionalInterface</node>
-            <node x="804.0" y="80.0">org.springframework.core.env.EnvironmentCapable</node>
-            <node x="447.74999999999994" y="250.0">org.springframework.context.ConfigurableApplicationContext</node>
-            <node x="286.1666666666665" y="0.0">org.springframework.beans.factory.BeanFactory</node>
-            <node x="1247.0" y="170.0">java.io.Closeable</node>
-            <node x="1001.0" y="80.0">org.springframework.context.ApplicationEventPublisher</node>
-            <node x="580.0" y="80.0">org.springframework.core.io.support.ResourcePatternResolver</node>
-            <node x="0.0" y="80.0">org.springframework.context.MessageSource</node>
-            <node x="167.0" y="80.0">org.springframework.beans.factory.ListableBeanFactory</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.env.EnvironmentCapable">
-              <point x="42.0" y="-15.0" />
-              <point x="613.25" y="140.0" />
-              <point x="892.5" y="140.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.core.io.support.ResourcePatternResolver" target="org.springframework.core.io.ResourceLoader">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.beans.factory.HierarchicalBeanFactory" target="org.springframework.beans.factory.BeanFactory">
-              <point x="0.0" y="-15.0" />
-              <point x="460.49999999999994" y="55.0" />
-              <point x="381.41666666666663" y="55.0" />
-              <point x="31.750000000000114" y="15.0" />
-            </edge>
-            <edge source="org.springframework.beans.factory.ListableBeanFactory" target="org.springframework.beans.factory.BeanFactory">
-              <point x="0.0" y="-15.0" />
-              <point x="254.0" y="55.0" />
-              <point x="317.9166666666665" y="55.0" />
-              <point x="-31.75" y="15.0" />
-            </edge>
-            <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.ApplicationContext">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.HierarchicalBeanFactory">
-              <point x="-14.0" y="-15.0" />
-              <point x="557.25" y="130.0" />
-              <point x="460.49999999999994" y="130.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.context.ConfigurableApplicationContext" target="java.io.Closeable">
-              <point x="82.33333333333337" y="-15.0" />
-              <point x="653.5833333333333" y="225.0" />
-              <point x="1301.5" y="225.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.ApplicationEventPublisher">
-              <point x="70.0" y="-15.0" />
-              <point x="641.25" y="150.0" />
-              <point x="1106.5" y="150.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.context.MessageSource">
-              <point x="-70.0" y="-15.0" />
-              <point x="501.24999999999994" y="150.0" />
-              <point x="73.5" y="150.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.beans.factory.ListableBeanFactory">
-              <point x="-42.0" y="-15.0" />
-              <point x="529.25" y="140.0" />
-              <point x="254.0" y="140.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.context.ApplicationEventPublisher" target="java.lang.FunctionalInterface">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.context.ApplicationContext" target="org.springframework.core.io.support.ResourcePatternResolver">
-              <point x="14.0" y="-15.0" />
-              <point x="585.25" y="130.0" />
-              <point x="682.0" y="130.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="org.springframework.context.ConfigurableApplicationContext" target="org.springframework.context.Lifecycle">
-              <point x="-82.33333333333326" y="-15.0" />
-              <point x="488.9166666666667" y="225.0" />
-              <point x="415.74999999999994" y="225.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.7958303378864127" x="292.0" y="106.0" />
-          <SelectedNodes>
-            <node>org.springframework.context.ConfigurableApplicationContext</node>
-          </SelectedNodes>
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/SpringApplicationRunListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/annotation/AnnotatedBeanDefinitionReader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/SpringApplicationRunListeners.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/annotation/AnnotationConfigApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/boot/spring-boot-devtools/2.1.4.RELEASE/spring-boot-devtools-2.1.4.RELEASE.jar!/org/springframework/boot/devtools/restart/RestartLauncher.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/javax/swing/DefaultSingleSelectionModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="45" column="26" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="483" selection-start-line="483" selection-end-line="483" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/boot/spring-boot/2.1.4.RELEASE/spring-boot-2.1.4.RELEASE.jar!/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="491" selection-start-line="491" selection-end-line="491" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="662" selection-start-line="662" selection-end-line="662" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/aop/services/AopTestImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/aop/services/AopTestServices.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -855,17 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="55" />
-          <folding>
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-core/5.1.6.RELEASE/spring-core-5.1.6.RELEASE.jar!/org/springframework/core/env/Environment.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -890,10 +756,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/statics/swagger3/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/swagger3/config/RestConf.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/swagger3/sample.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/待学习.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev-resource.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
+        <state relative-caret-position="88">
           <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -904,13 +787,187 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/annotion/controller/NameTypeInvokeController.java">
+    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="71" lean-forward="true" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="45">
+          <caret line="491" selection-start-line="491" selection-end-line="491" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultSingletonBeanRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="72" column="66" lean-forward="true" selection-start-line="72" selection-start-column="66" selection-end-line="72" selection-end-column="66" />
+          <folding>
+            <element signature="e#7035#7036#0" expanded="true" />
+            <element signature="e#7077#7078#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/support/AbstractBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="111" column="41" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="37" column="26" lean-forward="true" selection-start-line="37" selection-start-column="26" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-context/5.1.6.RELEASE/spring-context-5.1.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="126" column="48" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/invoke/InvokeMeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/study/invoketest/InvokeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37334">
+          <caret line="1780" column="18" selection-start-line="1780" selection-start-column="18" selection-end-line="1780" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-beans/5.1.6.RELEASE/spring-beans-5.1.6.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Autowired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="87" column="36" selection-start-line="87" selection-start-column="36" selection-end-line="87" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/annotion/controller/NameTypeInvokeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="73" column="34" lean-forward="true" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/invoke/annaotation/FanAutowired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/invoke/controller/SelfMvcController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/invoke/说明.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/invoke/service/SelfMvcService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/invoke/service/impl/SelfMvcServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/invoke/annaotation/FanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/invoke/annaotation/FanRequestMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/invoke/annaotation/FanRequestParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/invoke/annaotation/FanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/DispatcherServletPath.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -924,36 +981,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/待学习.txt">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/invoke/servlet/DispatcherServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        <state relative-caret-position="188">
+          <caret line="23" column="21" lean-forward="true" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/statics/swagger3/index.html">
+    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/boot/spring-boot-autoconfigure/2.1.4.RELEASE/spring-boot-autoconfigure-2.1.4.RELEASE.jar!/org/springframework/boot/autoconfigure/web/servlet/DispatcherServletAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-283" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sime/swagger3/config/RestConf.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="6" column="2" selection-end-line="18" />
+        <state relative-caret-position="199">
+          <caret line="155" column="24" lean-forward="true" selection-start-line="155" selection-start-column="24" selection-end-line="155" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/swagger3/sample.json">
+    <entry file="jar://$PROJECT_DIR$/../../reposity/org/springframework/spring-webmvc/5.1.6.RELEASE/spring-webmvc-5.1.6.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application-dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="-3733">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
         </state>
       </provider>
     </entry>
