@@ -5,6 +5,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
+
 @RestController
 public class AopTestController {
 
@@ -15,6 +17,7 @@ public class AopTestController {
     public String helloAop(){
         String result = "hello i'm comming";
 //        long start = System.currentTimeMillis();
+//        ArrayList
         String str = aopTestServices.aopTest();
 //        long end = System.currentTimeMillis();
 //        System.out.println("使用时间为："+String.valueOf(end-start));

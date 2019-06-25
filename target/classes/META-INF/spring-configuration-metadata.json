@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "study.like",
+      "type": "com.sime.configinfo.ConfigInfoProper",
+      "sourceType": "com.sime.configinfo.ConfigInfoProper"
+    }
+  ],
+  "properties": [
+    {
+      "name": "study.like.eat",
+      "type": "java.lang.String",
+      "sourceType": "com.sime.configinfo.ConfigInfoProper"
+    },
+    {
+      "name": "study.like.girl",
+      "type": "java.lang.String",
+      "sourceType": "com.sime.configinfo.ConfigInfoProper"
+    },
+    {
+      "name": "study.like.language",
+      "type": "java.lang.String",
+      "sourceType": "com.sime.configinfo.ConfigInfoProper"
+    }
+  ],
+  "hints": []
+}

@@ -6,8 +6,15 @@ import org.junit.Test;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.util.HashMap;
 
 public class InvokeTest {
+
+    public static void main(String[] args) {
+        Person a =  new Person();
+        Person b =  new Person();
+        System.out.println(a==(a=b));
+    }
 
     @Test
     public void one(){
