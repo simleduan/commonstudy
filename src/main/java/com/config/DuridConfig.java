@@ -25,6 +25,7 @@ public class DuridConfig {
     }
 
     //配置druid的监控页面
+    //http://localhost:8080/druid/login.html
     @Bean
     public ServletRegistrationBean druidStatViewServlet() {
         ServletRegistrationBean servletRegistrationBean = new ServletRegistrationBean(new StatViewServlet(),"/druid/*");
