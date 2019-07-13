@@ -2,7 +2,7 @@ spring:
   main:
     allow-bean-definition-overriding: true
   profiles:
-    active: dev
+    active: devdruid
 
 #以下为公共配置，各环境均相同
 #mybatis基础配置
