@@ -1,0 +1,14 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  profiles:
+    active: dev
+
+#以下为公共配置，各环境均相同
+#mybatis基础配置
+mybatis:
+  mapper-locations: classpath:mapping/*.xml
+  type-aliases-package: com.ms.batch.pojo
+  configuration:
+    map-underscore-to-camel-case: true
+
