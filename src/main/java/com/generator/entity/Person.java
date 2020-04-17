@@ -1,5 +1,11 @@
 package com.generator.entity;
 
+/**
+ * 
+ *
+ * @author brigh
+ * @date 2020-04-18
+ */
 public class Person {
     private Integer id;
 
