@@ -1,0 +1,1 @@
+git操作：	拉取远程分支并在本地创建：		git checkout -b gitcommond  将本地分支推送到远程(远程没有该分支会自动创建)：  	git push origin gitcommand:gitcommand
